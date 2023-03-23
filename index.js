@@ -12,7 +12,7 @@ class Employee {
   }
   
   // Encapsulation: FullTime and PartTime are two concrete classes that encapsulate the properties and methods of an employee
-  class FullTime extends Employee {
+  class FullTime extends Employee {   // Inheritance: FullTime(SubClass) | Employee(SuperClass)
 
     constructor(name, age, position, experience, salary) {   // Input variable data Employee (constructor)
     // value by SuperClass (Employee)
@@ -40,7 +40,7 @@ class Employee {
     }
   }
   // Encapsulation: FullTime and PartTime are two concrete classes that encapsulate the properties and methods of an employee
-  class PartTime extends Employee {
+  class PartTime extends Employee {  // Inheritance: PartTime(SubClass) | Employee(SuperClass)
     constructor(name, age, position, hoursWorked, hourlyRate) {    // Input variable data Employee (constructor)
       // value by SuperClass (Employee)
       super(name, age, position);
