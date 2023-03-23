@@ -63,7 +63,7 @@ class Employee {
   const EM1 = new FullTime('VEERAPAT', 30, "Software Engineer",5,25000);
   console.log(`Infomation Employee: \n${EM1.Detail()} \n${EM1.AverageTotalCompensation()} ${EM1.getSalary()} \n`);
 
-  const EM2 = new PartTime('PONGPAK', 34, "Automation(PLC)", 750,10);
+  const EM2 = new PartTime('PONGPAK', 34, "Automation(PLC)", 10,750);
   console.log(`Infomation Employee: \n${EM2.Detail()} \n${EM2.getSalary()} \n`);
    
 
